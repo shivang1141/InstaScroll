@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Scroll Extension",
+  "version": "1.0",
+  "description": "Scroll up and down using extension buttons",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon/icon01.png",
+      "48": "icon/icon01.png",
+      "128": "icon/icon01.png"
+    }
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

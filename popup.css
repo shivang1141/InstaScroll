@@ -1,0 +1,35 @@
+body {
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  button {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    filter: invert(1) brightness(0.8);
+    transition: filter 0.2s;
+  }
+  
+  button:hover img {
+    filter: invert(1) brightness(1);
+  }
+  
